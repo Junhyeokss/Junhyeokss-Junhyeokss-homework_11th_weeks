@@ -1,0 +1,365 @@
+.header {
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  width: 100vw;
+}
+
+.header .inner {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+}
+
+.header .inner .left {
+  display: flex;
+  gap: 30px;
+  line-height: 100px;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header .inner h1 {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+.header .inner .right {
+  display: flex;
+  gap: 30px;
+  line-height: 100px;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mainVisual .itm1 {
+  background: url(../img/visual1.jpg) no-repeat center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+.mainVisual .itm2 {
+  background: url(../img/visual2.jpg) no-repeat center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+.mainVisual .itm3 {
+  background: url(../img/visual3.jpg) no-repeat center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+.mainVisual .itm4 {
+  background: url(../img/visual4.jpg) no-repeat center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.mainVisual .img_box .desc {
+  width: 1200px;
+  margin: 15% 0 0 10%;
+  line-height: 50px;
+  color: #fff;
+  font-size: 35px;
+}
+
+.mainVisual .img_box .desc h2 {
+  padding: 10px 0;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.mainVisual .img_box .desc p {
+  font-size: 25px;
+}
+
+.mainVisual .img_box .desc b {
+  font-size: 16px;
+}
+
+.mainVisual .main_slide {
+  position: relative;
+}
+
+.mainVisual .main_slide .slick-dots {
+  position: absolute;
+  bottom: 45%;
+  left: 9.5%;
+}
+
+.mainVisual .main_slide .slick-dots li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.mainVisual .main_slide .slick-dots > li button {
+  font-size: 0;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: none;
+}
+
+.mainVisual .main_slide .slick-dots > li.slick-active button {
+  background: #fff;
+}
+.subVisual {
+  background: url(../img/intro-bg.jpg) no-repeat center center / cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.subVisual .inner {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subVisual .inner .top {
+  line-height: 30px;
+}
+
+.subVisual .inner .top .first {
+  display: block;
+  padding: 45px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.subVisual .inner .top .second {
+  padding: 0 0 30px 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.subVisual .inner .top .third {
+  padding: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.subVisual .inner strong {
+  border: 2px solid #ddd;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.subVisual .inner .bottom {
+  display: flex;
+  width: 1200px;
+  gap: 30px;
+  padding: 25px 0 0 0;
+  justify-content: space-between;
+}
+
+.subVisual .inner .bottom p {
+  display: block;
+  padding: 10px 0 0 0;
+}
+
+.NewsSection {
+  padding: 80px 0;
+  text-align: center;
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.NewsSection h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.NewsSection .inner {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+  padding: 50px 0;
+  flex-wrap: wrap;
+}
+
+.NewsSection strong {
+  border: 2px solid #ddd;
+  padding: 10px 30px;
+}
+.NewsSection .inner figure {
+  padding: 30px 0 0 0;
+}
+
+.NewsSection .inner figure .snsinner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.NewsSection .inner figure .snsinner .one {
+  background: red;
+}
+
+.NewsSection .inner figure .snsinner .two {
+  background: purple;
+}
+.NewsSection .inner figure .snsinner .three {
+  background: blue;
+}
+
+.NewsSection .inner figure .snsinner span {
+  font-size: 15px;
+  border: 1px solid #ddd;
+  padding: 2px 35px;
+  color: #fff;
+}
+
+.NewsSection .inner figure .snsinner b {
+  font-size: 10px;
+}
+
+.NewsSection .inner img {
+  object-fit: cover;
+  width: 363px;
+  height: 239px;
+}
+
+.NewsSection .inner p {
+  display: block;
+  padding: 10px 0 0 0;
+}
+
+.aboutSlogan {
+  text-align: center;
+  line-height: 60px;
+  padding: 80px;
+}
+.aboutSlogan h3 {
+  display: block;
+  padding: 0 0 10px 0;
+  font-size: 35px;
+  font-weight: 600;
+}
+.aboutSlogan .sloganinner {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.mapSection {
+  background: url(../img/global-bg.jpg) no-repeat center center / cover;
+  height: 80vh;
+  text-align: center;
+  padding: 30px 0;
+  line-height: 100px;
+}
+
+.mapSection h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.mapSection p {
+  font-size: 30px;
+}
+
+.mapSection ul {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 30px;
+}
+
+.mapSection ul > li:nth-child(1) {
+  color: orange;
+}
+.mapSection ul > li:nth-child(2) {
+  color: red;
+}
+.mapSection ul > li:nth-child(3) {
+  color: green;
+}
+.mapSection ul > li:nth-child(4) {
+  color: blue;
+}
+.mapSection ul > li:nth-child(5) {
+  color: purple;
+}
+
+.mapSection strong {
+  border: 3px solid #ddd;
+  padding: 10px 20px;
+}
+
+.connectSection {
+  padding: 80px 0;
+  margin: 100px 0 0 0;
+  background: #3e7ccc;
+}
+
+.connectSection .inner {
+  position: relative;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-between;
+  line-height: 50px;
+  color: #fff;
+}
+
+.connectSection .inner::before {
+  position: absolute;
+  content: "";
+  top: -20px;
+  left: 50%;
+  height: 200px;
+  width: 1px;
+  background: #fff;
+}
+
+.connectSection .inner ul > li:nth-child(1) {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.connectSection .inner strong {
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+.footer {
+  padding: 30px 0 0 0;
+  background-color: #ddd;
+}
+
+.footer .inner {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+.footer .inner ul {
+  display: flex;
+}
+
+.footer .inner ul:nth-child(2) {
+  line-height: 40px;
+}
+
+.footer .inner ul:nth-child(3) {
+  padding: 0 0 30px 0;
+}
+
+.footer .inner .unit {
+  line-height: 70px;
+  gap: 50px;
+}
