@@ -1,42 +1,92 @@
 .header {
-  position: fixed;
+  position: sticky;
+  top: 0;
+  left: 0;
   z-index: 999;
-  background: #fff;
-  width: 100vw;
-}
-
-.header .inner {
   display: flex;
   justify-content: space-between;
-  line-height: 100px;
-}
-
-.header .inner .left {
-  display: flex;
-  gap: 30px;
-  line-height: 100px;
   padding: 0 50px;
-  font-size: 20px;
-  font-weight: 500;
+  background: #fff;
+  line-height: 100px;
 }
 
-.header .inner h1 {
-  display: block;
+.header .gnb {
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.header .gnb > ul {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.header .mega {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
   width: 1200px;
   margin: 0 auto;
-  text-align: center;
-  width: 500px;
+  padding: 10px 20px;
 }
 
-.header .inner .right {
+.header .mega img {
+  width: 140px;
+}
+
+.header .mega .left_img {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.header .mega .center_img {
+  margin: 0 30px 0 0;
+}
+
+.header .mega .center_img img {
+  width: 300px;
+}
+
+.header .mega .right_menu {
   display: flex;
   gap: 30px;
-  line-height: 100px;
-  padding: 0 50px;
-  font-size: 20px;
-  font-weight: 500;
 }
 
+.header .gnb > ul > li > a {
+  padding: 0 20px;
+  display: block;
+  text-align: center;
+}
+
+.header .gnb > ul > li .menu_wrap {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  line-height: 25px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  display: none;
+}
+
+.header .gnb > ul > li:hover .menu_wrap {
+  display: block;
+}
+
+.header .gnb > ul > li .menu_wrap {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  line-height: 25px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  display: none;
+}
+
+/**------------------------------------------------------ **/
 .mainVisual .itm1 {
   background: url(../img/visual1.jpg) no-repeat center center / cover;
   height: 100vh;
@@ -60,14 +110,14 @@
 
 .mainVisual .img_box .desc {
   width: 1200px;
-  margin: 15% 0 0 10%;
+  margin: 15% 0 0 19.5%;
   line-height: 50px;
   color: #fff;
   font-size: 35px;
 }
 
 .mainVisual .img_box .desc h2 {
-  padding: 10px 0;
+  padding: 0 0 40px 0;
   font-size: 50px;
   font-weight: 600;
 }
@@ -80,14 +130,19 @@
   font-size: 16px;
 }
 
+.mainVisual .img_box .desc span {
+  display: block;
+  font-size: 16px;
+}
+
 .mainVisual .main_slide {
   position: relative;
 }
 
 .mainVisual .main_slide .slick-dots {
   position: absolute;
-  bottom: 45%;
-  left: 9.5%;
+  bottom: 42%;
+  left: 360px;
 }
 
 .mainVisual .main_slide .slick-dots li {
